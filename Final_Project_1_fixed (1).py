@@ -404,7 +404,9 @@ TICKER_SYMBOLS = [
     "JPM", "V", "UNH", "XOM", "JNJ", "WMT", "MA", "PG", "HD",
     "CVX", "MRK", "LLY", "ABBV", "PEP", "KO", "AVGO", "COST",
     "MCD", "TMO", "ACN", "CSCO", "CRM", "BAC", "WFC", "GS", "MS",
-    "SPY", "QQQ", "DIA"
+    "DIA", "VST", "JNJ", "BMY", "AVGO", "INTC", "NFLX", "CRM", "SBUX",
+    "MRSH", "HIMS", "PSX", "DASH", "HOOD", "RSG", "FAST", "COIN", "GRMN", 
+    "FIS", "DLTR", "HPQ", "TXT", "BBY", "FOXA", "NCLH", "DPZ", "WYNN"
 ]
 
 
@@ -937,7 +939,7 @@ def ui_portfolio_dashboard(tickers: list, weights: list, benchmark: str):
 
 def main():
     st.set_page_config(
-        page_title="FIN 330 | Bloomberg Dashboard",
+        page_title="Stock Analysis | Portfolio Dashboard",
         page_icon="📊",
         layout="wide"
     )
